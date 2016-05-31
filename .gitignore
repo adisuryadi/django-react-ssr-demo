@@ -132,3 +132,6 @@ crashlytics-build.properties
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# Client side project ignore
+client/node_modules
