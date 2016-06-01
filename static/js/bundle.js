@@ -10326,11 +10326,11 @@
 	  displayName: 'App',
 
 	  propTypes: {
-	    name: _react2.default.propTypes.string
+	    name: _react2.default.PropTypes.string
 	  },
 
 	  render: function render() {
-	    _react2.default.createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      null,
 	      'Hello ' + (this.props.name || 'world') + '!'

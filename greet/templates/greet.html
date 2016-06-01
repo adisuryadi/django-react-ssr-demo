@@ -1,0 +1,12 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greeting!</title>
+</head>
+<body>
+  <div id="app">{{ rendered|safe }}</div>
+  <script src="{% static 'js/bundle.js' %}"></script>
+</body>
+</html>

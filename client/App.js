@@ -2,11 +2,13 @@ import React from 'react'
 
 const App = React.createClass({
   propTypes: {
-    name: React.propTypes.string,
+    name: React.PropTypes.string,
   },
 
   render() {
-    <div>{`Hello ${this.props.name || 'world'}!`}</div>
+    return (
+      <div>{`Hello ${this.props.name || 'world'}!`}</div>
+    )
   },
 })
 
