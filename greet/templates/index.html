@@ -6,6 +6,9 @@
   <title>Greeting!</title>
 </head>
 <body>
+  <script>
+      var INITIAL_DATA = JSON.parse('{{ serialized_value|safe }}')
+  </script>
   <div id="app">{{ rendered|safe }}</div>
   <script src="{% static 'js/bundle.js' %}"></script>
 </body>
